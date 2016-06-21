@@ -52,6 +52,6 @@ defmodule WordCount do
       end)
     |> Enum.join("\n")
 
-    {:ok, "\nCount complete, Top #{@top_n_words} words by usage:\n" <> sorted_words}
+    {:ok, "Count complete, Top #{@top_n_words} words by usage:\n" <> sorted_words}
   end
 end
